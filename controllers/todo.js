@@ -17,7 +17,6 @@ router.get('/Task/All', async (req, res) => {
 //Create a task
 router.post('/Task', async (req, res) => {
     try {
-        console.log(req)
         const input = req.body
         if (!input || input === '') {res.status(400).send('Invalid input'); return}
 
