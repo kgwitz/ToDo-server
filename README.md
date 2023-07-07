@@ -12,7 +12,7 @@ Node.js: Download and install Node.js if you haven't already.
 ## Installation
 Clone the repository to your local machine using the following command:
 
-### `git clone <repository-url>`
+### `git clone <https://github.com/kgwitz/ToDo-server.git>`
 
 Install the required dependencies by running the following command:
 ### `npm install`
@@ -29,4 +29,6 @@ Alternatively, for development purposes, you can use nodemon by running:
 Nodemon will automatically restart the server whenever you save changes to the code.
 
 You can now access the backend APIs to interact with the MongoDB database. Use tools like Postman or any other HTTP client to send requests to the server.
+
+***Please note: The original project included both the server-side and client-side code. There were many more commits than the single commit that can be seen in this repository.
 
